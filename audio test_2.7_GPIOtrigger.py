@@ -141,12 +141,11 @@ snaresample = ''
 introtune = ''
 kicksample = ''
 
-while True:
   
     if GPIO.event_detected(12):
         KickPressed()
 
-    elif GPIO.event_detected(16):
+    if GPIO.event_detected(16):
          SnarePressed()
 
 root.mainloop()
