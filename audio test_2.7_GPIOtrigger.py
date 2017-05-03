@@ -140,13 +140,11 @@ root.attributes('-fullscreen', True)
 snaresample = ''
 introtune = ''
 kicksample = ''
-
   
     if GPIO.event_detected(12):
-        KickPressed()
-
+        KickPressed
     if GPIO.event_detected(16):
-         SnarePressed()
+        SnarePressed
 
 root.mainloop()
 
