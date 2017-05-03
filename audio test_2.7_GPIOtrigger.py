@@ -142,10 +142,10 @@ kicksample = ''
 GPIO.add_event_detect(12, GPIO.RISING,KickPressed) #Detect rising peaks of GPIO
 GPIO.add_event_detect(16, GPIO.RISING,SnarePressed)    
     
-    if GPIO.event_detected(12):
-        KickPressed
-    if GPIO.event_detected(16):
-        SnarePressed
+ #   if GPIO.event_detected(12):
+  #      KickPressed
+   # if GPIO.event_detected(16):
+    #    SnarePressed
 
 root.mainloop()
 
